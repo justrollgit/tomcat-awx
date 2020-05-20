@@ -2,4 +2,4 @@
 - name: install tomcat to host
   hosts: all
   roles:
-   - { role: tomcat}
+   - { role: idealista.tomcat-role}
