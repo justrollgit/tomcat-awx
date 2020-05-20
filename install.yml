@@ -1,6 +1,9 @@
----
-- name: install tomcat to host
+- hosts: servers
   become: true
-  hosts: all
+  vars:
+    tomcat_version: 8.5.23
+    
+    tomcat_permissions_production: True
+    
   roles:
-   - { role: tomcat}
+    - role: tomcat132

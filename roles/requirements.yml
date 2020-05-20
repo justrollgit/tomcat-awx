@@ -1,3 +1,3 @@
-- src: idealista.tomcat-role
-  version: 1.8.0
-  name: tomcat
+- src: zaxos.tomcat-ansible-role
+  version: 1.3.2
+  name: tomcat132
